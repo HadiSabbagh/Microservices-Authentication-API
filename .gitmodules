@@ -4,3 +4,6 @@
 [submodule "user-management-service"]
 	path = user-management-service
 	url = https://github.com/HadiSabbagh/user-management-service
+[submodule "vehicle-management-service"]
+	path = vehicle-management-service
+	url = https://github.com/HadiSabbagh/vehicle-management-service

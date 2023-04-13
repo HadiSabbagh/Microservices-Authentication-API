@@ -13,9 +13,15 @@ services:
     #   - ./auth-service/src/main/java/org/toyota/logs/authServiceLogs.log:authServiceLogs.log
   user-management-service:
     build: ./user-management-service
-
     ports:
       - "8002:8080"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://PostgreSQL:5432/postgres
+
+  vehicle-management-service:
+    build: ./vehicle-management-service
+    ports:
+      - "8003:8080"
     environment:
       - SPRING_DATASOURCE_URL=jdbc:postgresql://PostgreSQL:5432/postgres
 
