@@ -11,6 +11,13 @@ services:
       - SPRING_DATASOURCE_URL=jdbc:postgresql://PostgreSQL:5432/postgres
     # volumes:
     #   - ./auth-service/src/main/java/org/toyota/logs/authServiceLogs.log:authServiceLogs.log
+  user-management-service:
+    build: ./user-management-service
+
+    ports:
+      - "8002:8080"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://PostgreSQL:5432/postgres
 
   PostgreSQL:
     image: postgres
@@ -31,3 +38,4 @@ services:
 networks:
   auth-service:
   PostgreSQL:
+  user-management-service:
