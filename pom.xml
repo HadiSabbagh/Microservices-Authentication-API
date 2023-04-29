@@ -7,6 +7,8 @@
     <groupId>org.toyota</groupId>
     <artifactId>micro-backendProject</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
 
     <properties>
         <maven.compiler.source>19</maven.compiler.source>
