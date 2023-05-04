@@ -9,16 +9,16 @@ services:
         condition: service_healthy
     environment:
       - SPRING_DATASOURCE_URL=jdbc:postgresql://PostgreSQL:5432/postgres
-    volumes:
-       - ./auth-service/src/main/java/org/toyota/logs/containerLogs.log:/mylogs.log
+   # volumes:
+   #    - ./auth-service/src/main/java/org/toyota/logs/containerLogs.log:/mylogs.log
   user-management-service:
     build: ./user-management-service
     ports:
       - "8002:8080"
     environment:
       - SPRING_DATASOURCE_URL=jdbc:postgresql://PostgreSQL:5432/postgres
-    volumes:
-      - ./user-management-service/src/main/java/org/toyota/logs/containerLogs.log:/mylogs.log
+   # volumes:
+    #  - ./user-management-service/src/main/java/org/toyota/logs/containerLogs.log:/mylogs.log
 
   vehicle-management-service:
     build: ./vehicle-management-service
@@ -26,8 +26,8 @@ services:
       - "8003:8080"
     environment:
       - SPRING_DATASOURCE_URL=jdbc:postgresql://PostgreSQL:5432/postgres
-    volumes:
-      - ./vehicle-management-service/src/main/java/org/toyota/logs/containerLogs.log:/mylogs.log
+   # volumes:
+   #   - ./vehicle-management-service/src/main/java/org/toyota/logs/containerLogs.log:/mylogs.log
 
   PostgreSQL:
     image: postgres
