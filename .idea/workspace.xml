@@ -4,23 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="401ec5e4-c420-49fd-86a6-f7b445c216e0" name="Changes" comment="Implemented unit testing for validations in user-management-service.&#10;Added javadocs to validations in user-management-service.&#10;Added necessary (for testing) dependencies to user-management-service.&#10;Added validations classes to test for vehicle-management-service.">
+    <list default="true" id="401ec5e4-c420-49fd-86a6-f7b445c216e0" name="Changes" comment="Added auth-service javadocs.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/toyota/auth/payload/request/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/toyota/auth/payload/request/LoginRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/toyota/auth/payload/request/SignupRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/toyota/auth/payload/request/SignupRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/toyota/auth/payload/response/JwtResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/toyota/auth/payload/response/JwtResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/toyota/auth/payload/response/MessageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/toyota/auth/payload/response/MessageResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/toyota/auth/payload/response/TokenValidResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/toyota/auth/payload/response/TokenValidResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/toyota/auth/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/toyota/auth/security/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/toyota/auth/security/jwt/AuthTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/toyota/auth/security/jwt/AuthTokenFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/toyota/auth/security/jwt/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/toyota/auth/security/jwt/JwtUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/toyota/auth/security/services/UserDetailsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/toyota/auth/security/services/UserDetailsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/toyota/auth/security/services/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/toyota/auth/security/services/UserDetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/toyota/mapper/ResponseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/toyota/mapper/ResponseMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/toyota/operationResult/DatabaseOpResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/toyota/operationResult/DatabaseOpResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/toyota/operationResult/ExtendedOperationResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/toyota/operationResult/ExtendedOperationResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/toyota/operationResult/OperationResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/toyota/operationResult/OperationResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-management-service/src/main/java/org/toyota/auth/security/jwt/AuthTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-management-service/src/main/java/org/toyota/auth/security/jwt/AuthTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-management-service/src/main/java/org/toyota/resources/UserManagementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-management-service/src/main/java/org/toyota/resources/UserManagementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-management-service/src/main/java/org/toyota/services/UserManagementImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-management-service/src/main/java/org/toyota/services/UserManagementImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683473090956</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added auth-service javadocs.">
+      <created>1683553147226</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683553147226</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,7 +245,8 @@
     <MESSAGE value="Configured project files" />
     <MESSAGE value="Modified AuthController to add logs, and return a message if a user attempts to sign up with a username or email that already exist." />
     <MESSAGE value="Implemented unit testing for validations in user-management-service.&#10;Added javadocs to validations in user-management-service.&#10;Added necessary (for testing) dependencies to user-management-service.&#10;Added validations classes to test for vehicle-management-service." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented unit testing for validations in user-management-service.&#10;Added javadocs to validations in user-management-service.&#10;Added necessary (for testing) dependencies to user-management-service.&#10;Added validations classes to test for vehicle-management-service." />
+    <MESSAGE value="Added auth-service javadocs." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added auth-service javadocs." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
