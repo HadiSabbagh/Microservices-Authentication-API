@@ -4,36 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="401ec5e4-c420-49fd-86a6-f7b445c216e0" name="Changes" comment="Fixed null jpa find methods for user-management-service to catch NoSuchElementException.&#10;Completed UserManagementImplTest.&#10;Added more javadocs.&#10;Added InputValidatorImplTest for vehicle-management-service.&#10;Added DatabaseValidatorImplTest for vehicle-management-service.">
-      <change afterPath="$PROJECT_DIR$/terminal-service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/payload/request/LoginRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/payload/request/LoginRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/payload/request/SignupRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/payload/request/SignupRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/payload/response/JwtResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/payload/response/JwtResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/payload/response/MessageResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/payload/response/MessageResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/security/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/security/WebSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/security/jwt/AuthTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/security/jwt/AuthTokenFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/security/jwt/JwtUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/security/jwt/JwtUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/security/services/UserDetailsImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/security/services/UserDetailsImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/security/services/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/security/services/UserDetailsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/mapper/ResponseMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/mapper/ResponseMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/operationResult/DatabaseOpResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/operationResult/DatabaseOpResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/operationResult/ExtendedOperationResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/operationResult/ExtendedOperationResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/resources/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/resources/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terminal-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/terminal-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terminal-service/src/main/java/org/toyota/dao/TerminalRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/terminal-service/src/main/java/org/toyota/dao/TerminalRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terminal-service/src/main/java/org/toyota/resources/TerminalServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/terminal-service/src/main/java/org/toyota/resources/TerminalServiceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-management-service" beforeDir="false" afterPath="$PROJECT_DIR$/user-management-service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-management-service/src/test/java/org/toyota/services/UserManagementImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-management-service/src/test/java/org/toyota/services/UserManagementImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle-management-service" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-management-service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle-management-service/src/main/java/org/toyota/services/VehicleManagementImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-management-service/src/main/java/org/toyota/services/VehicleManagementImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle-management-service/src/test/java/org/toyota/services/VehicleManagementImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-management-service/src/test/java/org/toyota/services/VehicleManagementImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle-management-service/src/test/java/org/toyota/validations/InputValidatorImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-management-service/src/test/java/org/toyota/validations/InputValidatorImplTest.java" afterDir="false" />
+    <list default="true" id="401ec5e4-c420-49fd-86a6-f7b445c216e0" name="Changes" comment="Added terminal-service.">
+      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,12 +247,44 @@
       <option name="project" value="LOCAL" />
       <updated>1684522547125</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added terminal-service.">
+      <created>1686597798167</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1686597798167</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="30923ed6-e565-485f-bfec-301d094f8243">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$/terminal-service" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -303,6 +307,11 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="30923ed6-e565-485f-bfec-301d094f8243" value="TOOL_WINDOW" />
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -313,7 +322,8 @@
     <MESSAGE value="Added user-management-service javadocs." />
     <MESSAGE value="Added vehicle-management-service javadocs." />
     <MESSAGE value="Fixed null jpa find methods for user-management-service to catch NoSuchElementException.&#10;Completed UserManagementImplTest.&#10;Added more javadocs.&#10;Added InputValidatorImplTest for vehicle-management-service.&#10;Added DatabaseValidatorImplTest for vehicle-management-service." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed null jpa find methods for user-management-service to catch NoSuchElementException.&#10;Completed UserManagementImplTest.&#10;Added more javadocs.&#10;Added InputValidatorImplTest for vehicle-management-service.&#10;Added DatabaseValidatorImplTest for vehicle-management-service." />
+    <MESSAGE value="Added terminal-service." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added terminal-service." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

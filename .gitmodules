@@ -7,3 +7,6 @@
 [submodule "vehicle-management-service"]
 	path = vehicle-management-service
 	url = https://github.com/HadiSabbagh/vehicle-management-service
+[submodule "terminal-service"]
+	path = terminal-service
+	url = https://github.com/HadiSabbagh/terminal-service
