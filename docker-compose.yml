@@ -29,6 +29,13 @@ services:
    # volumes:
    #   - ./vehicle-management-service/src/main/java/org/toyota/logs/containerLogs.log:/mylogs.log
 
+  terminal-service:
+    build: ./terminal-service
+    ports:
+      - "8004:8080"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://PostgreSQL:5432/postgres
+
   PostgreSQL:
     image: postgres
     ports:

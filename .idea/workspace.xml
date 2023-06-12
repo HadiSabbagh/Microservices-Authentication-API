@@ -4,17 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="401ec5e4-c420-49fd-86a6-f7b445c216e0" name="Changes" comment="Added vehicle-management-service javadocs.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="401ec5e4-c420-49fd-86a6-f7b445c216e0" name="Changes" comment="Fixed null jpa find methods for user-management-service to catch NoSuchElementException.&#10;Completed UserManagementImplTest.&#10;Added more javadocs.&#10;Added InputValidatorImplTest for vehicle-management-service.&#10;Added DatabaseValidatorImplTest for vehicle-management-service.">
+      <change afterPath="$PROJECT_DIR$/terminal-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/payload/request/LoginRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/payload/request/LoginRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/payload/request/SignupRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/payload/request/SignupRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/payload/response/JwtResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/payload/response/JwtResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/payload/response/MessageResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/payload/response/MessageResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/security/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/security/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/security/jwt/AuthTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/security/jwt/AuthTokenFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/security/jwt/JwtUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/security/jwt/JwtUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/security/services/UserDetailsImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/security/services/UserDetailsImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/security/services/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/auth/security/services/UserDetailsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/mapper/ResponseMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/mapper/ResponseMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/operationResult/DatabaseOpResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/operationResult/DatabaseOpResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/operationResult/ExtendedOperationResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/operationResult/ExtendedOperationResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/resources/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/toyota/resources/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terminal-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/terminal-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terminal-service/src/main/java/org/toyota/dao/TerminalRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/terminal-service/src/main/java/org/toyota/dao/TerminalRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terminal-service/src/main/java/org/toyota/resources/TerminalServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/terminal-service/src/main/java/org/toyota/resources/TerminalServiceController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-management-service" beforeDir="false" afterPath="$PROJECT_DIR$/user-management-service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-management-service/src/main/java/org/toyota/services/UserManagementImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-management-service/src/main/java/org/toyota/services/UserManagementImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-management-service/src/test/java/org/toyota/services/UserManagementImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-management-service/src/test/java/org/toyota/services/UserManagementImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vehicle-management-service" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-management-service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle-management-service/src/main/java/org/toyota/domain/user/ERoles.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle-management-service/src/main/java/org/toyota/domain/user/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle-management-service/src/main/java/org/toyota/validations/DatabaseValidatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-management-service/src/main/java/org/toyota/validations/DatabaseValidatorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle-management-service/src/test/java/org/toyota/validations/DatabaseValidatorImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-management-service/src/test/java/org/toyota/validations/DatabaseValidatorImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicle-management-service/src/main/java/org/toyota/services/VehicleManagementImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-management-service/src/main/java/org/toyota/services/VehicleManagementImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicle-management-service/src/test/java/org/toyota/services/VehicleManagementImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-management-service/src/test/java/org/toyota/services/VehicleManagementImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vehicle-management-service/src/test/java/org/toyota/validations/InputValidatorImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-management-service/src/test/java/org/toyota/validations/InputValidatorImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,22 +81,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/NewStart/lectures/.2nd year/2nd term/Software Verification and Validation/TDDExample&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "G:/NewStart/Projects/terminal-service",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\NewStart\Projects\micro-backendProject\src\main\resources" />
@@ -95,24 +113,25 @@
       <recent name="org.toyota.services" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserManagementImplTest.update">
-    <configuration name="UserManagementImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="user-management" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.toyota.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.toyota.services" />
-      <option name="MAIN_CLASS_NAME" value="org.toyota.services.UserManagementImplTest" />
-      <option name="TEST_OBJECT" value="class" />
+  <component name="RunManager" selected="JUnit.Whole project">
+    <configuration name="All in micro-backendProject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="micro-backendProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserManagementImplTest.attemptToDeleteNonExistentUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="user-management" />
+    <configuration name="All in vehicle-management-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vehicle-management-service" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehicleManagementImplTest.inputAndDatabaseValidationsBeforeUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vehicle-management-service" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.toyota.services.*" />
@@ -120,15 +139,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.toyota.services" />
-      <option name="MAIN_CLASS_NAME" value="org.toyota.services.UserManagementImplTest" />
-      <option name="METHOD_NAME" value="attemptToDeleteNonExistentUser" />
+      <option name="MAIN_CLASS_NAME" value="org.toyota.services.VehicleManagementImplTest" />
+      <option name="METHOD_NAME" value="inputAndDatabaseValidationsBeforeUpdate(org.toyota.dto.VehicleDTO,java.util.List)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserManagementImplTest.findByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="user-management" />
+    <configuration name="VehicleManagementImplTest.updateNonExistingVehicle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vehicle-management-service" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.toyota.services.*" />
@@ -136,52 +155,30 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.toyota.services" />
-      <option name="MAIN_CLASS_NAME" value="org.toyota.services.UserManagementImplTest" />
-      <option name="METHOD_NAME" value="findByUsername" />
+      <option name="MAIN_CLASS_NAME" value="org.toyota.services.VehicleManagementImplTest" />
+      <option name="METHOD_NAME" value="updateNonExistingVehicle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserManagementImplTest.findByUsernameOrEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="user-management" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.toyota.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.toyota.services" />
-      <option name="MAIN_CLASS_NAME" value="org.toyota.services.UserManagementImplTest" />
-      <option name="METHOD_NAME" value="findByUsernameOrEmail" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserManagementImplTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="user-management" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.toyota.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.toyota.services" />
-      <option name="MAIN_CLASS_NAME" value="org.toyota.services.UserManagementImplTest" />
-      <option name="METHOD_NAME" value="update" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="Whole project" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserManagementImplTest.update" />
-        <item itemvalue="JUnit.UserManagementImplTest.attemptToDeleteNonExistentUser" />
-        <item itemvalue="JUnit.UserManagementImplTest" />
-        <item itemvalue="JUnit.UserManagementImplTest.findByUsername" />
-        <item itemvalue="JUnit.UserManagementImplTest.findByUsernameOrEmail" />
+        <item itemvalue="JUnit.Whole project" />
+        <item itemvalue="JUnit.All in micro-backendProject" />
+        <item itemvalue="JUnit.All in vehicle-management-service" />
+        <item itemvalue="JUnit.VehicleManagementImplTest.updateNonExistingVehicle" />
+        <item itemvalue="JUnit.VehicleManagementImplTest.inputAndDatabaseValidationsBeforeUpdate" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683554759511</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fixed null jpa find methods for user-management-service to catch NoSuchElementException.&#10;Completed UserManagementImplTest.&#10;Added more javadocs.&#10;Added InputValidatorImplTest for vehicle-management-service.&#10;Added DatabaseValidatorImplTest for vehicle-management-service.">
+      <created>1684522547125</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684522547125</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,7 +283,22 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$/vehicle-management-service" />
+                        <option value="$PROJECT_DIR$/user-management-service" />
+                        <option value="$PROJECT_DIR$/auth-service" />
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -293,7 +312,8 @@
     <MESSAGE value="Added auth-service javadocs." />
     <MESSAGE value="Added user-management-service javadocs." />
     <MESSAGE value="Added vehicle-management-service javadocs." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added vehicle-management-service javadocs." />
+    <MESSAGE value="Fixed null jpa find methods for user-management-service to catch NoSuchElementException.&#10;Completed UserManagementImplTest.&#10;Added more javadocs.&#10;Added InputValidatorImplTest for vehicle-management-service.&#10;Added DatabaseValidatorImplTest for vehicle-management-service." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed null jpa find methods for user-management-service to catch NoSuchElementException.&#10;Completed UserManagementImplTest.&#10;Added more javadocs.&#10;Added InputValidatorImplTest for vehicle-management-service.&#10;Added DatabaseValidatorImplTest for vehicle-management-service." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
