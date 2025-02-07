@@ -1,11 +1,9 @@
 # Backend-Project
-32Bit Toyota backend project assignment
+
 
 
 * [General Info](#general-info)
 * [What is it?](#what-is-it)
-* [Currently Working](#currently-working)
-* [Planned](#planned)
 * [Deployment](#deployment)
 * [Mappings](#mappings)
 * [How to use](#how-to-use)
@@ -17,21 +15,6 @@ This application's purpose is to learn and apply for a backend position as a stu
 
 ## What is it?
 It is an API with token based authentication and authorization that allows the user to manage two entities, User and Vehicle.
-
-
-
-## Currently working
-
-* CRUD Operations
-* Data entry validation.
-* DTO <-> DAO conversion.
-* Logging.
-* Token-based Authentication and Authorization.
-* Error Input and Listing (Vehicle Management Service).
-
-## Planned
-* Terminal Service.
-* Unit Testing.
 
 
 ## Deployment
